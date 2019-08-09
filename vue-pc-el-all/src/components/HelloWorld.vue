@@ -1,9 +1,15 @@
 <template>
-  <div class="hello">
-    {{this.Global.tagArry}}
-    <!-- <svg-icon icon-class="home"></svg-icon> -->
+  <div class="content">
+    <silderBar></silderBar>
+    <div class="body_main">
+        <navBar></navBar>
+        <div class="main">
+           
+        </div>
+    </div>
   </div>
 </template>
+
 
 <script>
 import {square} from '../assets/js/Gfunction'
